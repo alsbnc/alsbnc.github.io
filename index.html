@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Bencini Composer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Lato -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/53e5529e8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="background-darken show-hide"></div>
+
+    <header class="header">
+        <div class="header--flex">
+
+        <div class="header--logo">
+            <p class="header--logo--text">Alessandro Bencini</p>
+        </div>
+
+        <nav class="header--nav">
+            <ul class="nav--menu">
+                <li class="nav--menu--item">
+                    <a href="#" class="nav--menu--item--link">Works</a></li>
+                <li class="nav--menu--item">
+                    <a href="#" class="nav--menu--item--link">Biography</a></li>
+                <li class="nav--menu--item">
+                    <a href="#" class="nav--menu--item--link">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="header--social">
+            <ul class="header--social--list">
+                <li class="header--social--list--item">
+                    <a href="#" class="header--social--list--item--link"><i class="fab fa-facebook"></i></a></li>
+                <li class="header--social--list--item">
+                    <a href="#" class="header--social--list--item--link"><i class="fab fa-soundcloud"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="header--ham-container" id="ham" onclick="animateMenu()">
+            <div class="header--ham-container--btn">
+                <div class="header--ham-container--btn--line" id="line1"></div>
+                <div class="header--ham-container--btn--line" id="line2"></div>
+                <div class="header--ham-container--btn--line" id="line3"></div>
+            </div>
+        </div>
+
+    </div>
+    </header>
+
+    <div class="header--ham-menu" id="ham-menu">
+        <nav class="header--ham-menu--nav">
+            <ul class="ham--list">
+                <li class="ham--list--item">
+                    <a href="#" class="ham--list--item--link">Works</a></li>
+                <li class="ham--list--item">
+                    <a href="#" class="ham--list--item--link">Biography</a></li>
+                <li class="ham--list--item">
+                    <a href="#" class="ham--list--item--link">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="header--ham-social">
+            <ul class="ham--social--list">
+                <li class="ham--social--list--item">
+                    <a href="#" class="ham--social--list--item--link"><i class="fab fa-facebook"></i></a></li>
+                <li class="ham--social--list--item">
+                    <a href="#" class="ham--social--list--item--link"><i class="fab fa-soundcloud"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="header--ham-language">
+            <p class="header--ham-language--title">Change language</p>
+            <div class="header--ham-language--languages">
+                <a href="index.html" class="header--ham-language--languages--link">English</a><a href="index.html/it/index.html" class="header--ham-language--languages--link">Italian</a>
+            </div>
+        </div>
+    </div>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="main--wrap">
+            <div class="main--text-wrap">
+                <h1 class="main--title">Composer for media</h1>
+                <p class="main--subtitle"> Film, TV and games</p>
+
+                <!-- For widest viewport -->
+                <a href="#" class="main--button view-btn button cta">Get in touch</a>
+            </div>
+            
+            <div class="main--wrap--img-cont">
+            </div>
+    
+            <a href="#" class="main--button button cta">Get in touch</a>
+        </div>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- WORKS -->
+    <section class="works">
+        <div class="container">
+            <h2 class="works--title">Recent works</h2>
+
+            <!-- Cards -->
+            <div class="works--cards">
+                <div class="works--card card">
+                    <div class="works--card--img" style="background-image: url(assets/images/works/lupo.png);"></div>
+                    <h3 class="works--card--title">Lupo racconta la SMA</h3>
+                    <p class="works--card--info">Amazon Prime Video</p>
+
+                    <a href="#" class="works--card--hover">
+                        <p class="works--card--hover--text">Click to listen</p>
+                    </a>
+                </div>
+
+                <div class="works--card card">
+                    <div class="works--card--img" style="background-image: url(assets/images/works/bfc.png);"></div>
+                    <h3 class="works--card--title">BFC Logo animation</h3>
+                    <p class="works--card--info">Brandon Box</p>
+                    
+                    <a href="#" class="works--card--hover">
+                        <p class="works--card--hover--text">Click to listen</p>
+                    </a>
+                </div>
+                
+                <div class="works--card card">
+                    <div class="works--card--img" style="background-image: url(assets/images/works/eagle-pictures-logo.jpg);"></div>
+                    <h3 class="works--card--title">Eagle Pictures Logo Animation</h3>
+                    <p class="works--card--info">Eagle Pictures</p>
+
+                    <a href="#" class="works--card--hover">
+                        <p class="works--card--hover--text">Click to listen</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End cards -->
+        </div>
+    </section>
+    <!-- END WORKS -->
+
+    <!-- BIO -->
+    <section class="bio">
+        <div class="container">
+            <h2 class="bio--title">Nice to meet you</h2>
+
+            <p class="bio--paragraph paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore similique delectus alias eius iusto nulla explicabo officiis et sequi impedit eveniet id ad modi pariatur incidunt tempore placeat sed!Molestiae iste veritatis tempore amet, est iure consequatur! Et, a sunt est nesciunt quia consectetur aut omnis, dignissimos dolorem accusantium corrupti, deserunt sint adipisci accusamus rerum obcaecati in non ea?</p>
+
+            <a href="#" class="bio--button button cta">Get in touch</a>
+        </div>
+    </section>
+    <!-- END BIO -->
+
+    <!-- CONTACTS -->
+        <section class="contacts">
+            <div class="contacts--container container">
+                
+                <div class="contacts--info">
+                    <h2 class="contacts--info--title">Contacts</h2>
+                    <p class="contacts--info--paragraph paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis quisquam dicta enim! Quidem molestias quod, molestiae ducimus cupiditate officia ab architecto fugiat animi necessitatibus, iste, nihil voluptatibus veritatis quae!</p>
+
+                    <h3 class="contacts--info--method-name">Email</h3>
+                    <a href="mailto:als.bencini@gmail.com" class="contacts--info--link">als.bencini@gmail.com</a>
+
+                    <h3 class="contacts--info--method-name">Phone</h3>
+                    <a href="tel:00393339059339" class="contacts--info--link">333 9059339</a>
+                </div>
+
+                <div class="contacts--form-container">
+                    <h3 class="contacts--form-container--title">
+                        Send a message
+                    </h3>
+                    <form action="" method="POST" class="contacts--form-container--form" id="contact-form">
+                        <label for="vname">Full name</label>
+                        <input type="text" name="vname" id="vname">
+
+                        <label for="vemail">Email</label>
+                        <input type="email" name="vemail" id="vemail">
+
+                        <label for="vmessage">Message</label>
+                        <textarea name="vmessage" form="contact-form" cols="30" rows="10" id="vmessage">Type your message...</textarea>
+
+                        <input type="submit" value="Submit" class="submit-button button cta">
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-- END CONTACTS -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer--social">
+            <ul class="footer--social--list">
+                <li class="footer--social--list--item">
+                    <a href="#" class="footer--social--list--item--link"><i class="fab fa-facebook"></i></a></li>
+                <li class="footer--social--list--item">
+                    <a href="#" class="footer--social--list--item--link"><i class="fab fa-soundcloud"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer--foot-notes">
+            <p class="footer-foot-notes--copyright">Copyright AB Media 2020</p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/ham.js"></script>
+</body>
+</html>

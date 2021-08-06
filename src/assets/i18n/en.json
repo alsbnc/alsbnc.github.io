@@ -1,0 +1,26 @@
+{
+    "works": "Works",
+    "biography": "Biography",
+    "contacts": "Contacts",
+    "change-lang": "Cambia lingua",
+
+    "hero-title":  "Composer for media",
+    "hero-subtitle": "Film, TV and games",
+    "get-in-touch": "Get in touch",
+    "recent-works": "Recent works",
+    "about-me": "About me",
+    "about-me-body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam recusandae labore odio ipsum dicta, fuga quos laborum enim atque animi corporis, optio laboriosam aliquid temporibus possimus, unde qui eos.",
+
+    "click-to-listen": "Click to listen",
+    "my-works": "My works",
+    "about-project": "About the project",
+    "go-back": "Go back",
+
+    "contact-me": "Contact me",
+    "contact-intro": " If you have any question and want to get in touch, I will be more than happy to receive your email. Fill the form here below and I will get back to you as soon as possibile.",
+    "form-name": "Name",
+    "form-email": "Email",
+    "form-message": "Your message",
+    "form-send": "Send!"
+
+}

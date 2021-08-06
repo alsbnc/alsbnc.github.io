@@ -1,0 +1,25 @@
+{
+    "works": "Lavori",
+    "biography": "Biografia",
+    "contacts": "Contatti",
+    "change-lang": "Change language",
+
+    "hero-title": "Compositore per media",
+    "hero-subtitle": "Film, TV e videogiochi",
+    "get-in-touch": "Contatta",
+    "recent-works": "Lavori recenti",
+    "about-me": "Chi sono",
+    "about-me-body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam recusandae labore odio ipsum dicta, fuga quos laborum enim atque animi corporis, optio laboriosam aliquid temporibus possimus, unde qui eos.",
+
+    "click-to-listen": "Clicca per ascoltare",
+    "my-works": "I lavori",
+    "about-project": "Sul progetto",
+    "go-back": "Indietro",
+
+    "contact-me": "Contattatemi",
+    "contact-intro": "Se avete domande o desidarate contattarmi, sarò più che felice di ricevere una vostra email. Riempite il form qui sotto e vi risponderò appena possibile.",
+    "form-name": "Nome",
+    "form-email": "Email",
+    "form-message": "Messaggio",
+    "form-send": "Invia!"
+}

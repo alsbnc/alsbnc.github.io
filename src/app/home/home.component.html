@@ -1,0 +1,22 @@
+<div class="hero">
+    <img src="assets/img/alessandro.jpg" alt="" class="hero--img">
+    <div class="hero--text">
+      <h1 class="hero--title">{{ 'hero-title' | translate }}</h1>
+      <p class="hero--subtitle">{{ 'hero-subtitle' | translate }}</p>
+      <button routerLink="contact" class="hero--btn cta btn">{{ 'get-in-touch' | translate}}</button>
+    </div>
+  </div>
+
+  <section class="recent-works">
+    <h2 class="section-title">{{ 'recent-works' | translate}}</h2>
+    <app-works></app-works>
+  </section>
+
+  <section class="home-bio">
+    <h2 class="section-title">{{ 'about-me' | translate}}</h2>
+    <p class="paragraph">
+     {{ 'about-me-body' | translate}}
+    </p>
+
+    <button routerLink="contact" class="cta btn btn-dark">{{ 'get-in-touch' | translate}}</button>
+  </section>

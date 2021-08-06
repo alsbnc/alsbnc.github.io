@@ -1,0 +1,53 @@
+<section class="contact">
+    <h2 class="title page-title">{{ 'contact-me' | translate}}</h2>
+    <p class="contact--paragraph">
+      {{ 'contact-intro' | translate}}
+    </p>
+
+    <form class="form" (ngSubmit)="submitForm()" #contactForm="ngForm">
+          <div class="form--field">
+            <label for="name" class="form--label">{{ 'form-name' | translate}}</label>
+            <input
+              type="text"
+              name="name"
+              class="form--input"
+              [(ngModel)]="name"
+              #nameInput="ngModel"
+              required>
+
+            <div class="form--error" *ngIf="nameInput.invalid && nameInput.touched">
+              Your name is required.
+            </div>
+          </div>
+
+          <div class="form--field">
+            <label for="email" class="form--label">{{ 'form-email' | translate}}</label>
+            <input
+              type="email"
+              name="email"
+              class="form--input"
+              [(ngModel)]="email"
+              #emailInput="ngModel"
+              required
+              email>
+
+            <div class="form--error" *ngIf="emailInput.invalid && emailInput.touched">
+              Your email is required and needs to be valid.
+            </div>
+          </div>
+
+          <div class="form--field">
+            <label for="name" class="form--label">{{ 'form-message' | translate}}</label>
+            <textarea name="message" class="form--textarea" [(ngModel)]="message"></textarea>
+          </div>
+
+          <div class="form--field">
+            <button
+              type="submit"
+              class="form--submit btn"
+              [disabled]="contactForm.invalid">
+              {{ 'form-send' | translate}}
+            </button>
+          </div>
+        </form>
+  </section>

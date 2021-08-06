@@ -1,0 +1,33 @@
+@use "../helpers/" as *;
+
+.btn{
+    cursor: pointer;
+    border: none;
+    padding: 1em 2em;
+    border-radius: .25em;
+    font-weight: 700;
+    background: $main;
+    color: $text-dark;
+    border: 2px solid $main;
+
+    transition: all 100ms ease-in-out;
+
+    &:hover,
+    &:focus{
+        color: $text-light;
+        background-color: $dark;
+    }
+}
+
+.btn-dark{
+    background-color: $dark;
+    color: $main;
+    border-radius: .25em;
+    border: 2px solid $dark;
+
+    &:hover,
+    &:focus{
+        color: $text-dark;
+        background-color: $main;
+    }
+}

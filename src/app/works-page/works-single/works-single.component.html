@@ -1,0 +1,20 @@
+<section class="work-single" *ngIf="work">
+    <img [src]="'/assets/img/works/' + work.image" alt="" class="work-single--img">
+    <div class="work-single--text">
+      <h3 class="work-single--title">{{ work.title }}</h3>
+      <p class="work-single--client">{{ work.client }}</p>
+    </div>
+
+    <div class="work-single--about">
+      <h4>{{ 'about-project' | translate}}</h4>
+      <div *ngIf="lang == 'en'; then thenBlock else elseBlock"></div>
+        <p class="work-single--description">
+          <ng-template #thenBlock>{{ work.description }}</ng-template>
+          <ng-template #elseBlock>{{ work.description_it }}</ng-template>
+        </p>
+       <!-- <p class="work-single--description">{{ work.this.descriptionLang }}</p> -->
+
+      <button routerLink="/works-page" class="back-btn btn btn-dark">{{ 'go-back' | translate}}</button>
+    </div>
+   
+  </section>

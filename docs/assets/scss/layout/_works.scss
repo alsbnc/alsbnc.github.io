@@ -1,26 +1,23 @@
-.works{
-    display: grid;
-    grid-template: auto / auto;
-    gap: 1.5em;
+.works {
+  display: grid;
+  grid-template: auto / auto;
+  gap: 1.5em;
 
-    &--card{
-        width: 100%;
-    }
+  &--card {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1100px) {
-    .works{
-        display: grid;
-        grid-template: auto / auto auto auto;
-        justify-content: space-between;
+  .works {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    justify-content: space-between;
 
-        gap: 0;
+    gap: 0;
 
-
-    &--card{
-        max-width: 310px;
+    &--card {
+      max-width: 310px;
     }
-
-        
-    }
+  }
 }

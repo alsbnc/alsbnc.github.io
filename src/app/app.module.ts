@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorksService } from './works.service';
+import { BiographyComponent } from './biography/biography.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -26,7 +27,8 @@ export function HttpLoaderFactory(http: HttpClient){
     FooterComponent,
     HomeComponent,
     WorksComponent,
-    ContactComponent
+    ContactComponent,
+    BiographyComponent
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,17 @@
 @use "_colors" as *;
 
+.page-title {
+  padding-top: 3em;
+  padding-bottom: 1em;
 
-
-.page-title{
-    padding-top: 3em;
-
-    &::after{
-        content: '';
-        display: block;
-        height: 3px;
-        width: 1.5em;
-        border-radius: 1px;
-        background-color: $dark;
-        margin: 0 auto;
-        margin-top: .25em;
-    }
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 1.5em;
+    border-radius: 1px;
+    background-color: $dark;
+    margin: 0 auto;
+    margin-top: 0.25em;
+  }
 }

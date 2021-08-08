@@ -1,20 +1,42 @@
 @use "../helpers/" as *;
 
 .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  background-color: $dark;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 2em 0.75em;
+  max-width: 700px;
+
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+
+  &--field {
     display: flex;
     flex-direction: column;
-    background-color: $dark;
-    padding: 2em .75em;
+  }
 
-    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
+  &--label {
+    color: $text-light;
+    margin-bottom: 0.5em;
+  }
 
-    &--field{
-        display: flex;
-        flex-direction: column;
-    }
+  &--input,
+  &--textarea {
+    width: 80%;
+    max-width: 330px;
+    margin: 0 auto;
+  }
 
-    &--label{
-        color: $text-light;
-    }
-    
+  &--input {
+    font-size: 1rem;
+    height: 2em;
+  }
+
+  &--submit {
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 1.75em;
+  }
 }

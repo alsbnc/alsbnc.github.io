@@ -5,15 +5,15 @@ import { HttpClient } from "@angular/common/http";
   providedIn: 'root'
 })
 export class WorksService {
-  apiUrl = "https://bencini.familyds.com/alessandro-bencini_api/api/works/";
+  apiUrl = "https://bencini.familyds.com/alessandro-bencini_api/api/post/";
 
   constructor(private http: HttpClient) {}
 
   getWorks() {
-    return this.http.get(this.apiUrl);
+    return this.http.get(`${this.apiUrl}read.php`);
   }
 
   getSingleWork(id: string) {
-    return this.http.get(`${this.apiUrl}/${id}`);
+    return this.http.get(`${this.apiUrl}read_single.php?id=${id}`);
   }
 }

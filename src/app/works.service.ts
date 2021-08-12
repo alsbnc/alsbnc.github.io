@@ -5,8 +5,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class WorksService {
-  //apiUrl = 'https://alessandro-bencini.herokuapp.com/api/works';
-  apiUrl = 'http://localhost:3000/api/works';
+  apiUrl = 'https://alessandro-bencini.herokuapp.com/api/works';
+  //apiUrl = 'http://localhost:3000/api/works';
 
   constructor(private http: HttpClient) {}
 

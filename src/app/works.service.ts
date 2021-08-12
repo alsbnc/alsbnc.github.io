@@ -9,8 +9,8 @@ export class WorksService {
 
   constructor(private http: HttpClient) {}
 
-  getWorks() {
-    return this.http.get(this.apiUrl);
+  getWorks(limit: number) {
+    return this.http.get(`${this.apiUrl}/${limit}`);
   }
 
   getSingleWork(_id: string) {

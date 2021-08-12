@@ -4,17 +4,15 @@ import { WorksService } from '../works.service';
 @Component({
   selector: 'app-works',
   templateUrl: './works.component.html',
-  styleUrls: ['./works.component.scss']
+  styleUrls: ['./works.component.scss'],
 })
 export class WorksComponent implements OnInit {
-
   works;
-  routeDirect = "/works-page/";
+  routeDirect = '/works-page/';
 
-  constructor(private worksService: WorksService) { }
+  constructor(private worksService: WorksService) {}
 
   ngOnInit() {
-    this.works = this.worksService.getWorks();
+    this.works = this.worksService.getWorks(3);
   }
-
 }

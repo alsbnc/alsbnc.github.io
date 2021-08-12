@@ -31,3 +31,10 @@
     background-color: $main;
   }
 }
+
+button[type="submit"]:disabled {
+  background-color: rgb(214, 214, 214);
+  border: none;
+  color: rgb(94, 94, 94);
+  cursor: not-allowed;
+}

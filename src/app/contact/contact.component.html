@@ -4,7 +4,7 @@
       {{ 'contact-intro' | translate}}
     </p>
 
-    <form class="form" (ngSubmit)="submitForm()" #contactForm="ngForm">
+    <form class="form" (ngSubmit)="submitForm(contactForm)" #contactForm="ngForm">
           <div class="form--field">
             <label for="name" class="form--label">{{ 'form-name' | translate}}</label>
             <input
@@ -16,11 +16,11 @@
               required>
 
             <div class="form--error" *ngIf="nameInput.invalid && nameInput.touched">
-              Your name is required.
+              {{ 'form-name-err' | translate}}
             </div>
           </div>
 
-          <div class="form--field">
+          <div class="form--field" style="margin-bottom: 2em;">
             <label for="email" class="form--label">{{ 'form-email' | translate}}</label>
             <input
               type="email"
@@ -32,7 +32,22 @@
               email>
 
             <div class="form--error" *ngIf="emailInput.invalid && emailInput.touched">
-              Your email is required and needs to be valid.
+              {{ 'form-email-err' | translate}}
+            </div>
+          </div>
+
+          <div class="form--field">
+            <label for="name" class="form--label">{{ 'form-subject' | translate}}</label>
+            <input
+              type="text"
+              name="subject"
+              class="form--input"
+              [(ngModel)]="subject"
+              #subjectInput="ngModel"
+              required>
+
+            <div class="form--error" *ngIf="subjectInput.invalid && subjectInput.touched">
+              {{ 'form-subj-err' | translate}}
             </div>
           </div>
 
@@ -48,6 +63,7 @@
               [disabled]="contactForm.invalid">
               {{ 'form-send' | translate}}
             </button>
+            <div class="form--success" *ngIf="showMsg">Email sent!</div>
           </div>
         </form>
   </section>

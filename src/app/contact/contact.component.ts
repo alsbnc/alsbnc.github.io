@@ -1,26 +1,32 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent implements OnInit {
   name: string | undefined;
+  subject: string | undefined;
   email: string | undefined;
   message: string | undefined;
 
-  constructor() { }
+  showMsg: boolean | false | undefined;
 
-  ngOnInit(): void {
+  constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {}
+
+  submitForm(contactForm) {
+    const formUrl = 'https://alessandro-bencini.herokuapp.com/api/mail';
+    const data = contactForm.value;
+
+    this.http.post(formUrl, data).subscribe((response) => {
+      if (contactForm.valid) {
+        this.showMsg = true;
+        contactForm.reset();
+      }
+    });
   }
-
-  submitForm(){
-    const message = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
-
-    alert(message);
-
-
-  }
-
 }

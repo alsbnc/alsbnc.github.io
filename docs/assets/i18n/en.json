@@ -18,10 +18,14 @@
 
     "contact-me": "Contact me",
     "contact-intro": " If you have any question and want to get in touch, I will be more than happy to receive your email. Fill the form here below and I will get back to you as soon as possibile.",
-    "form-name": "Name",
+    "form-name": "Name and Last Name",
+    "form-subject": "Subject",
     "form-email": "Email",
     "form-message": "Your message",
     "form-send": "Send!",
+    "form-name-err": "Your name is required.",
+    "form-email-err": "Your email is required and needs to be valid.",
+    "form-subj-err": "An email subject is required.",
 
     "biography-title": "Biography",
     "biography-page": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias sint magni, commodi dolorem fuga repellendus deleniti porro neque veniam cupiditate quibusdam ipsum nemo culpa adipisci sunt eum ut vitae tempore! Ipsam culpa reiciendis, quis fuga iste officia quibusdam rerum illo voluptate amet, repellendus illum facilis ipsa sapiente laboriosam sunt! Corrupti, vero maiores. Accusantium repudiandae harum blanditiis, consectetur quo illum consequuntur. Dolorem voluptatibus et possimus tenetur consequuntur quis sit dignissimos, totam impedit, ipsum, modi quam placeat adipisci commodi! Perspiciatis alias eos corporis, ab eaque, dolore accusamus neque, dolorem expedita doloribus reiciendis! Quibusdam accusantium consequuntur itaque id aliquam, laboriosam voluptate veniam soluta pariatur ipsum dolores sit beatae, inventore debitis explicabo molestias aliquid adipisci. Illum facilis sequi ea voluptatem voluptates. Officia, vitae rerum?"

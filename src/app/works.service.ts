@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class WorksService {
-  apiUrl = "https://bencini.familyds.com/alessandro-bencini_api/api/post/";
+  apiUrl = 'https://alessandro-bencini.herokuapp.com/api/works';
 
   constructor(private http: HttpClient) {}
 
   getWorks() {
-    return this.http.get(`${this.apiUrl}read.php`);
+    return this.http.get(this.apiUrl);
   }
 
-  getSingleWork(id: string) {
-    return this.http.get(`${this.apiUrl}read_single.php?id=${id}`);
+  getSingleWork(_id: string) {
+    return this.http.get(`${this.apiUrl}/${_id}`);
   }
 }

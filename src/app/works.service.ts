@@ -5,12 +5,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class WorksService {
-  apiUrl = 'https://alessandro-bencini.herokuapp.com/api/works';
+  //apiUrl = 'https://alessandro-bencini.herokuapp.com/api/works';
+  apiUrl = 'http://localhost:3000/api/works';
 
   constructor(private http: HttpClient) {}
 
-  getWorks(limit: number) {
-    return this.http.get(`${this.apiUrl}/${limit}`);
+  getWorks() {
+    return this.http.get(this.apiUrl);
   }
 
   getSingleWork(_id: string) {

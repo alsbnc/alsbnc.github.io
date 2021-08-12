@@ -13,6 +13,6 @@ export class WorksListComponent implements OnInit {
   constructor(private worksService: WorksService) {}
 
   ngOnInit() {
-    this.works = this.worksService.getWorks();
+    this.works = this.worksService.getWorks(20);
   }
 }

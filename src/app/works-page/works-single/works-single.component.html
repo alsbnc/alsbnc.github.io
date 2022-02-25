@@ -11,6 +11,8 @@
         <p class="work-single--description">
           <ng-template #thenBlock>{{ work.description }}</ng-template>
           <ng-template #elseBlock>{{ work.description_it }}</ng-template>
+          <br>
+          {{'director' | translate }} {{ work.director}}
         </p>
        <!-- <p class="work-single--description">{{ work.this.descriptionLang }}</p> -->
 

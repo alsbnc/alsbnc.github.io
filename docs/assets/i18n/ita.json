@@ -9,7 +9,7 @@
     "get-in-touch": "Contatta",
     "recent-works": "Lavori recenti",
     "about-me": "Chi sono",
-    "about-me-body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam recusandae labore odio ipsum dicta, fuga quos laborum enim atque animi corporis, optio laboriosam aliquid temporibus possimus, unde qui eos.",
+    "about-me-body": "Sono un compositore e cantante di Milano. Il mio viaggio nella musica è iniziato all'età di dodici anni con il canto e il Musical. Crescendo ho iniziato a sperimentare con il missaggio, l'arrangiamento e la produzione della mia musica e di quella di altri artisti. Negli ultimi anno ho avuto l'opportunità di comporre musica originale per Film e TV, combinando il mio amore per la composizione, la produzione e lo storytelling.",
 
     "click-to-listen": "Clicca per ascoltare",
     "my-works": "I lavori",
@@ -28,5 +28,6 @@
     "form-subj-err": "L'oggetto dell'email è richiesto",
 
     "biography-title": "Biografia",
-    "biography-page": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias sint magni, commodi dolorem fuga repellendus deleniti porro neque veniam cupiditate quibusdam ipsum nemo culpa adipisci sunt eum ut vitae tempore! Ipsam culpa reiciendis, quis fuga iste officia quibusdam rerum illo voluptate amet, repellendus illum facilis ipsa sapiente laboriosam sunt! Corrupti, vero maiores. Accusantium repudiandae harum blanditiis, consectetur quo illum consequuntur. Dolorem voluptatibus et possimus tenetur consequuntur quis sit dignissimos, totam impedit, ipsum, modi quam placeat adipisci commodi! Perspiciatis alias eos corporis, ab eaque, dolore accusamus neque, dolorem expedita doloribus reiciendis! Quibusdam accusantium consequuntur itaque id aliquam, laboriosam voluptate veniam soluta pariatur ipsum dolores sit beatae, inventore debitis explicabo molestias aliquid adipisci. Illum facilis sequi ea voluptatem voluptates. Officia, vitae rerum?"
+    "biography-page-par1": "Alessandro ha scoperto il suo amore per la musica da bambino iniziando a cantare. Fin dai dodici anni si è esibito sul palco, prendendo parte a diversi musical in Italia e formandosi come performer con la guida di Egidio la Gioia e presso la Guilford School of Acting in Inghilterra. Crescendo ha approcciato molti strumenti musicali interessandosi della creazione di nuovi suoni e di arrangiamento, produzione e missaggio.",
+    "biography-page-par2": "La musica per media ha presentato l’occasione di combinare la sua passione per composizione, arrangiamento e produzione con quella di dar voce e interpretazione alle storie. Il background nel musical e la passione per variegati generi musicali, dal rock progressive alla world music, forniscono un carattere distintivo alla musica di Alessandro che si presta ad enfatizzare, rispettandola, l’emozione narrata dalle immagini."
 }

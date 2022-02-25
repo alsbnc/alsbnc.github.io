@@ -9,7 +9,7 @@
     "get-in-touch": "Get in touch",
     "recent-works": "Recent works",
     "about-me": "About me",
-    "about-me-body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam recusandae labore odio ipsum dicta, fuga quos laborum enim atque animi corporis, optio laboriosam aliquid temporibus possimus, unde qui eos.",
+    "about-me-body": "I am a composer and singer born and living in Milan, Italy. My jurney in music started when I was twelve with singing and musical theatre. Growing up I started experimenting with mixing, arranging and producing my own and other perople's music. In recent years I've had the opportunity to compose original music for both Film and TV, combining my love for composition, production and storytelling into one.",
 
     "click-to-listen": "Click to listen",
     "my-works": "My works",
@@ -28,6 +28,7 @@
     "form-subj-err": "An email subject is required.",
 
     "biography-title": "Biography",
-    "biography-page": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias sint magni, commodi dolorem fuga repellendus deleniti porro neque veniam cupiditate quibusdam ipsum nemo culpa adipisci sunt eum ut vitae tempore! Ipsam culpa reiciendis, quis fuga iste officia quibusdam rerum illo voluptate amet, repellendus illum facilis ipsa sapiente laboriosam sunt! Corrupti, vero maiores. Accusantium repudiandae harum blanditiis, consectetur quo illum consequuntur. Dolorem voluptatibus et possimus tenetur consequuntur quis sit dignissimos, totam impedit, ipsum, modi quam placeat adipisci commodi! Perspiciatis alias eos corporis, ab eaque, dolore accusamus neque, dolorem expedita doloribus reiciendis! Quibusdam accusantium consequuntur itaque id aliquam, laboriosam voluptate veniam soluta pariatur ipsum dolores sit beatae, inventore debitis explicabo molestias aliquid adipisci. Illum facilis sequi ea voluptatem voluptates. Officia, vitae rerum?"
+    "biography-page-par1": "Alessandro discovered his love form music since he started singing as a kid. When he was twelve he started performing on stage, starring in several musicals in Italy under the artistic guidance of Egidio La Gioia and the Guilford School of Acting in the UK. Growing up he approached various musical instruments, interested in creating new sounds, and in arranging, producing and mixing.",
+    "biography-page-par2": "Music for media represented the chance to combine his passion for composition and production with giving voice and interpret stories. His background in musical theater and passion for multiple music genres, from progressive rock to world music, helps to give a unique character to Alessandro’s music, which leads to suite and enhance, while respecting it, the emotion images carry."
 
 }

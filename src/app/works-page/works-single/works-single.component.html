@@ -12,7 +12,17 @@
           <ng-template #thenBlock>{{ work.description }}</ng-template>
           <ng-template #elseBlock>{{ work.description_it }}</ng-template>
           <br>
-          {{'director' | translate }} {{ work.director}}
+          <span>{{'director' | translate }}</span> {{ work.director}}
+      
+          <span *ngIf="work.musicSuper"><br>{{'musicSuper' | translate}}</span> {{ work.musicSuper }}
+          
+          <span *ngIf="work.mixer"><br>{{'mixer' | translate}}</span> {{ work.mixer }}
+          
+          <span *ngIf="work.conductor"><br>{{'conductor' | translate}}</span> {{ work.conductor }}
+         
+          <span *ngIf="work.copyist"><br>{{'copyist' | translate}}</span> {{ work.copyist }}
+         
+          <span *ngIf="work.soloists"><br>{{'soloists' | translate}}</span> {{ work.soloists }}
         </p>
        <!-- <p class="work-single--description">{{ work.this.descriptionLang }}</p> -->
 

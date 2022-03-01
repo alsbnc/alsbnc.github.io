@@ -9,6 +9,12 @@
   }
 }
 
+.home-bio{
+  & p {
+    margin-bottom: 2.5em;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .biography--img {
     width: 100%;

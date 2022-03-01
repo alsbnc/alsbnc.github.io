@@ -41,6 +41,14 @@
     width: min-content;
     margin: 0 auto;
     margin-top: 1.75em;
+    background-color: $accent;
+    border-color: $accent;
+    color: $text-light;
+
+    &:hover,
+    &:focus{
+      border-color: $text-light;
+    }
   }
 
   &--error,

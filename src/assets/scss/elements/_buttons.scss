@@ -20,14 +20,14 @@
 }
 
 .btn-dark {
-  background-color: $dark;
+  background-color: $accent-dark;
   color: $main;
   border-radius: 0.25em;
-  border: 2px solid $dark;
+  border: 2px solid $accent-dark;
 
   &:hover,
   &:focus {
-    color: $text-dark;
+    color: $accent-dark;
     background-color: $main;
   }
 }

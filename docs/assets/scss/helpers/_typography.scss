@@ -2,7 +2,8 @@
 
 .page-title {
   padding-top: 3em;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
+  color: $accent;
 
   &::after {
     content: "";
@@ -10,8 +11,12 @@
     height: 3px;
     width: 1.5em;
     border-radius: 1px;
-    background-color: $dark;
+    background-color: $accent;
     margin: 0 auto;
     margin-top: 0.25em;
   }
+}
+
+.section-title{
+  color: $accent-dark;
 }

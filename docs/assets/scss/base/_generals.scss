@@ -38,6 +38,15 @@ app-footer {
   margin-top: auto !important;
 }
 
+iframe{
+  width:100%;
+  max-width:660px;
+  max-height: 25em;
+  margin: 0 auto 2em auto;
+  overflow:hidden;
+  background:transparent;
+}
+
 @media screen and (min-width: 700px) {
   section {
     padding-right: 1.5em;

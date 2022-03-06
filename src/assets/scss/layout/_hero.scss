@@ -60,6 +60,12 @@
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
+      transition: all ease-in-out 50ms;
+
+      &:hover,
+      &:focus {
+        font-size: 1.5em;
+      }
     }
   }
 }

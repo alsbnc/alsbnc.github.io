@@ -17,7 +17,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "it",
+        "sourceLocale": "it-IT",
         "locales": {
           "en": {
             "translation": "src/locale/messages.en.xlf",
@@ -63,6 +63,9 @@
               ],
               "outputHashing": "all"
             },
+            "en": {
+              "localize": ["en"]
+            },
             "development": {
               "localize": false,
               "buildOptimizer": false,
@@ -71,9 +74,6 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
-            },
-            "en": {
-              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -84,11 +84,12 @@
             "production": {
               "browserTarget": "ale-website:build:production"
             },
+            "en": {
+              "browserTarget": "ale-website:build:en",
+              "baseHref": "en"
+            },
             "development": {
               "browserTarget": "ale-website:build:development"
-            },
-            "en": {
-              "browserTarget": "ale-website:build:development,en"
             }
           },
           "defaultConfiguration": "development"

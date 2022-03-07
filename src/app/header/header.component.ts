@@ -35,8 +35,8 @@ export class HeaderComponent implements OnInit {
   lang;
 
   ngOnInit() {
-    // Set language based on local storage
-    this.lang = localStorage.getItem('lang') || 'it';
+    /* // Set language based on local storage
+    this.lang = localStorage.getItem('lang') || 'en';
 
     // Listen for the html select
 
@@ -45,13 +45,11 @@ export class HeaderComponent implements OnInit {
     langSelect?.addEventListener('change', (e) => {
       const target = e.target as HTMLSelectElement;
       this.changeLang(target.value);
-    });
+    }); */
   }
 
-  changeLang(lang) {
-    /* console.log(lang); */
-
+  /* changeLang(lang) {
     localStorage.setItem('lang', lang);
     window.location.reload();
-  }
+  } */
 }

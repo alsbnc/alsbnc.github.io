@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+/* import { TranslateService } from '@ngx-translate/core'; */
 
 @Component({
   selector: 'app-root',
@@ -9,9 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'Alessandro Bencini';
 
-  constructor(public translate: TranslateService) {
+  /*  constructor(public translate: TranslateService) {
     translate.addLangs(['en', 'ita']);
     translate.setDefaultLang('ita');
     translate.use(localStorage.getItem('lang') || 'ita');
-  }
+  } */
 }

@@ -12,11 +12,11 @@
         <li class="nav--menu--item">
                 <a routerLink="/" class="nav--menu--item--link">Home</a></li>
             <li class="nav--menu--item">
-                <a routerLink="works-page" class="nav--menu--item--link">{{ 'works' | translate}}</a></li>
+                <a routerLink="works-page" class="nav--menu--item--link" i18n>Lavori</a></li>
             <li class="nav--menu--item">
-                <a routerLink="biography" class="nav--menu--item--link">{{ 'biography' | translate}}</a></li>
+                <a routerLink="biography" class="nav--menu--item--link" i18n>Biografia</a></li>
             <li class="nav--menu--item">
-                <a routerLink="contact" class="nav--menu--item--link">{{ 'contacts' | translate}}</a></li>
+                <a routerLink="contact" class="nav--menu--item--link" i18n>Contatti</a></li>
             <li class="nav--menu--item">
             <select id="select-menu" class="lang-select">
                 <option value="ita" [selected]="lang == 'ita'" class="lang-select--opt">🇮🇹</option>
@@ -52,11 +52,11 @@
             <li class="ham--list--item" on-click="animateMenu()">
                 <a routerLink="/" class="ham--list--item--link">Home</a></li>
             <li class="ham--list--item" on-click="animateMenu()">
-                <a routerLink="contact" class="ham--list--item--link">{{ 'contacts' | translate}}</a></li>
+                <a routerLink="contact" class="ham--list--item--link" i18n>Contatti</a></li>
             <li class="ham--list--item" on-click="animateMenu()">
-                <a routerLink="/works-page" class="ham--list--item--link">{{ 'works' | translate}}</a></li>
+                <a routerLink="/works-page" class="ham--list--item--link" i18n>Lavori</a></li>
             <li class="ham--list--item" on-click="animateMenu()">
-                <a routerLink="biography" class="ham--list--item--link">{{ 'biography' | translate}}</a></li>
+                <a routerLink="biography" class="ham--list--item--link" i18n>Biografia</a></li>
         </ul>
     </nav>
 
@@ -76,7 +76,7 @@
     </div>
 
     <div class="header--ham-language">
-        <p class="header--ham-language--title">{{ 'change-lang' | translate}}</p>
+        <p class="header--ham-language--title" i18n>Change language</p>
         <div class="header--ham-language--languages">
             <a on-click="changeLang('en')" class="header--ham-language--languages--link">🇬🇧</a>
             <a on-click="changeLang('ita')" class="header--ham-language--languages--link">🇮🇹</a>

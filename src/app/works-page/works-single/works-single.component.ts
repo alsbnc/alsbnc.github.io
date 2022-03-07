@@ -30,7 +30,7 @@ export class WorksSingleComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.lang = localStorage.getItem('lang') || 'en';
+    this.lang = localStorage.getItem('lang') || 'it';
 
     this.route.params.subscribe((params) => {
       this.id = params['id'];

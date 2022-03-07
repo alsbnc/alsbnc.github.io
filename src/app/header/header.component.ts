@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     // Set language based on local storage
-    this.lang = localStorage.getItem('lang') || 'en';
+    this.lang = localStorage.getItem('lang') || 'it';
 
     // Listen for the html select
 
